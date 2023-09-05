@@ -27,7 +27,7 @@ function HomePage() {
              <div className="body-banner">
                 {/* <div className='img-container'> */}
                     <div className="body-banner-img">
-                        <img src="https://pbs.twimg.com/media/EVrzoltUwAI7pGU.png" alt='gun surgeon' />
+                        <img src="https://static.wikia.nocookie.net/fallout/images/0/08/ShotgunSurgeon.png/revision/latest?cb=20200307180337" alt='gun surgeon' />
                     </div>
                 {/* </div> */}
                 <div className="body-banner-text">
