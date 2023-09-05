@@ -35,7 +35,7 @@ function BookingForm({ task, modalCheck }) {
       const editedTask = await dispatch(editTaskThunk(payload))
 
       if (newBooking && editedTask) {
-        window.alert('You have picked up this task. To view it visit your profile.')
+        window.alert('You have picked up this task! To view it visit your profile.')
       }
     }
     catch (error) {
