@@ -12,8 +12,6 @@ function SearchBar({ placeholder, data }) {
       return value.title.toLowerCase().includes(word.toLowerCase())
     })
 
-    console.log(filter)
-
     if (word === "") {
       setFilteredData([])
       setValue("")

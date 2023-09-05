@@ -12,7 +12,6 @@ import SearchBar from '../SearchBar/SearchBar';
 const NavBar = () => {
   const sessionUser = useSelector(state => state.session.user);
   const tasks = useSelector(state => state.tasks)
-  console.log(tasks)
   return (
     <nav className='navbar-container'>
       <NavLink style={{ borderStyle: 'none' }} to='/' exact={true}>

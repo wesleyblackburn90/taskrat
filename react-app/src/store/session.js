@@ -68,7 +68,6 @@ export const demoLogin = () => async (dispatch) => {
       password: "password"
     })
   });
-  console.log(response)
 
   if (response.ok) {
     const data = await response.json();
